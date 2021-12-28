@@ -17,18 +17,18 @@ You must include the following functions.
 * Appropriate Manager Functions
 
 All traversal functions must accept a function pointer to the visit function to be called. See the example below.
-1 //BSTree method 
-2 void BSTree::InOrder(BSNode* root, void (*visit)(T data))
-3 {
-4 }
-5 //Consumer function
-6 void Display(int data)
-7 {
-8 	cout << data << endl;
-9 }
+> //BSTree method 
+> void BSTree::InOrder(BSNode* root, void (*visit)(T data))
+> {
+> }
+> //Consumer function
+> void Display(int data)
+> {
+> 	cout << data << endl;
+> }
 
-1 //Consumer call to the InOrder traversal
-2 bst.InOrder(Display);
+> //Consumer call to the InOrder traversal
+> bst.InOrder(Display);
 
 Deliverables
 
